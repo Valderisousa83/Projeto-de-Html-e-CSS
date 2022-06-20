@@ -1,0 +1,62 @@
+body {
+    margin:auto;/* irá centralizar todo o coteudo da página*/
+    background: rgba(48, 173, 142, 0.26);
+    font-family: Verdana;
+    max-width:1000px; /* o width ele unifica os txto todo, podendo fazer a junção da imagem. já max-width naõ deixa
+    a vizualiação da página ser cortada*/ 
+    
+}
+
+#title .subtitle .post_title {
+    color: black;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    margin:0%;
+    margin-bottom: 15px;
+    text-decoration: none; /* coloca um linha na descrição*/
+
+}
+.subtitle {
+    color: black;
+    padding: 15px; /*espaçamendo de alturar de um texto.*/ 
+    text-transform: lowercase;
+    }
+.title {
+    font-size: 30px;
+    color: black; /*não vai mudar porque está com ID*/ 
+  
+}
+a{
+   color:rgb(74, 10, 250);
+    text-decoration: line-through; /* ele pegou o elementor A onde existe i href e colocou uma linha.*/
+
+}
+.post {
+background: white;
+padding: 15px;
+border: 3px solid #5781b1;
+margin-bottom: 15px;
+border-radius: 15px; /*se colocar mais de um px ele irá modificar os lados*/ 
+}
+.post_content {
+    text-transform: capitalize; /*primeiras letras de cada palavras em maisculos.*/
+    margin:0%;
+    margin-bottom: 15px; /*espaçamentos de bordas*/  
+    text-align: justify; /* alinha para justificado, centralizado*/
+}
+.post_img {
+    margin-bottom: 15px;
+    border-radius: 15px; /*faz com que as bordas fiquem arredondadas*/
+    border: 3px solid #5781b1  ; /*tamanho da borda*/
+    width: 100%;
+}
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px; 
+}
+.contacts_list li a { /*ele concatenou os dois elementos, e deixou de funcionar o line-through que foi criado acima.*/
+    text-decoration: none;
+} 
